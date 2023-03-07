@@ -1,5 +1,7 @@
 # :wave: The Basics of GitHub
 
+Test Numan.
+
 ## 🤓 Course overview and learning outcomes
 
 The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
@@ -51,6 +53,9 @@ A fork is another way to copy a repository, but is usually used when you want to
 To learn more about forking, read ["Fork a repo"](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 ### Pull requests
+
+When working with branches, you can use a pull request to tell others about the changes you want to make and ask for their feedback. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. You can add specific people as reviewers of your pull request which shows you want their feedback on your changes! Once a pull request is ready-to-go, it can be merged into your main branch.
+To learn more about pull requests, read ["About Pull Requests"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 When working with branches, you can use a pull request to tell others about the changes you want to make and ask for their feedback. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. You can add specific people as reviewers of your pull request which shows you want their feedback on your changes! Once a pull request is ready-to-go, it can be merged into your main branch.
 To learn more about pull requests, read ["About Pull Requests"](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
@@ -122,4 +127,8 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 - [Education community forum](https://education.github.community/)
 - [GitHub community forum](https://github.community/)
 
+<<<<<<< HEAD
 #sophia-demo
+=======
+# deneme
+>>>>>>> cb7379f (Update readme)
