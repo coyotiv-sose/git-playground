@@ -1,0 +1,94 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jebbs.plantuml",
+        "esbenp.prettier-vscode",
+        "GitHub.copilot",
+        "GitHub.copilot-labs",
+        "mhutchie.git-graph",
+        "GitHub.codespaces",
+        "tomphilbin.gruvbox-themes",
+        "xyz.local-history",
+        "ms-vscode.live-server",
+        "eamodio.gitlens"
+      ],
+      "settings": {
+        "sync.gist": "097d7ef2de1cade79be54d5cfd025129",
+        "workbench.sideBar.location": "right",
+        "files.autoSave": "onFocusChange",
+        "editor.tabSize": 2,
+        "editor.wordWrapColumn": 120,
+        "search.exclude": {
+          "**/.history": true
+        },
+        "editor.minimap.enabled": false,
+        "explorer.confirmDelete": false,
+        "terminal.integrated.fontSize": 18,
+        "editor.fontSize": 16,
+        "explorer.confirmDragAndDrop": false,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.codeActionsOnSave": {
+          // For ESLint
+          "source.fixAll.eslint": true,
+          // For TSLint
+          "source.fixAll.tslint": true,
+          // For Stylelint
+          "source.fixAll.stylelint": true
+        },
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": false,
+        "prettier.printWidth": 120,
+        "prettier.singleQuote": true,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "terminal.integrated.scrollback": 1000000,
+        "terminal.integrated.copyOnSelection": true,
+        "typescript.updateImportsOnFileMove.enabled": "always",
+        "workbench.startupEditor": "newUntitledFile",
+        "eslint.codeAction.showDocumentation": {
+          "enable": true
+        },
+        "eslint.format.enable": true,
+        "eslint.options": {},
+        "plantuml.server": "http://localhost:8080",
+        "plantuml.render": "PlantUMLServer",
+        "terminal.integrated.tabs.enabled": true,
+        "workbench.editor.untitled.hint": "hidden",
+        "diffEditor.renderSideBySide": false,
+        "[html]": {
+          "editor.defaultFormatter": "vscode.html-language-features"
+        },
+        "terminal.integrated.enableMultiLinePasteWarning": false,
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "files.insertFinalNewline": true,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "debug.onTaskErrors": "debugAnyway",
+        "terminal.integrated.rightClickBehavior": "copyPaste",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "security.workspace.trust.untrustedFiles": "newWindow",
+        "workbench.editor.tabCloseButton": "left",
+        "javascript.format.semicolons": "remove",
+        "prettier.semi": false,
+        "typescript.format.semicolons": "remove",
+        "editor.inlineSuggest.enabled": true,
+        "github.copilot.enable": {
+          "*": true
+        },
+        "github.copilot.advanced": {},
+        "git.autofetch": true,
+        "npm.keybindingsChangedWarningShown": true,
+        "git.ignoreMissingGitWarning": true,
+        "githubPullRequests.pullBranch": "never",
+        "git.confirmSync": false,
+        "git.suggestSmartCommit": false,
+        "git.inputValidationSubjectLength": 500,
+        "vsicons.dontShowNewVersionMessage": true,
+        "workbench.colorTheme": "Gruvbox Dark (Hard)",
+        "local-history.path": "${workspaceFolder}/../"
+      }
+    }
+  }
+}
